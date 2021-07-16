@@ -36,8 +36,8 @@ public class HomepageTest extends TestBase{
 		initialization();
 		testutil=new TestUtil();
 		contacts=new Contacts();
-		//LoginPage loginpage=new LoginPage(); OR
-		loginpage=new LoginPage();//we declared loginpage variable  as class variable
+		LoginPage loginpage=new LoginPage(); 
+		//loginpage=new LoginPage();//we declared loginpage variable  as class variable
 		homepage=loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
 		}
 	
