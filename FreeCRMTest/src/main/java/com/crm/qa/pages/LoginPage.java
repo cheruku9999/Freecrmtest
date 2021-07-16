@@ -44,8 +44,8 @@ public class LoginPage extends TestBase {
 	{
 		username.sendKeys(un);
 		password.sendKeys(pwd);
-		Thread.sleep(5000);
 		loginBtn.click();
+		Thread.sleep(5000);
 		return new HomePage();
 		
 	}
